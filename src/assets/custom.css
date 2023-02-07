@@ -1,0 +1,200 @@
+.main_color{
+    color: #5c00b7;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.main-btn {
+    border-radius: 0!important;
+    background-color: transparent!important;
+    border: 3px solid white!important;
+    color: white!important;
+    padding: 10px 39px!important;
+}
+.action-btn{
+    padding: 11px 40px;
+    background: #e8e1fc;
+    color: #5c00b7;
+    font-weight: 500;
+}
+.action-btn:hover{
+    background: #5c00b7;
+    color: white;
+}
+.border-section{
+    border-bottom: 1px solid #5c00b7;
+}
+
+/*============== header_area css ==============*/
+.header_area{
+    background-color: #5c00b7!important;
+}
+.navbar-nav{
+    /* position: relative; */
+}
+.logo-image{
+    max-height: 55px;
+}
+.custom-nav-menu{
+    display: flex;
+    padding: 0 10px!important;
+}
+.custom-nav-item:hover {
+    background-color: #d0bfff;
+    /* background-color: #d3d5ff; */
+    box-shadow: -8px 0 0 0 #9e7efc;
+}
+.nav-item-title{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 18px;
+    color: #5c00b7;
+}
+.custom-nav-item {
+    display: flex;
+    width: 33%;
+    /* margin-left: 2.5%; */
+    padding: 15px 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    transition: .2s cubic-bezier(.77, 0, .175, 1);
+    font-family: 'Twkeverett web',sans-serif;
+}
+@media screen and (max-width: 991px){
+.custom-nav-item{
+    width: 100%;
+    margin-left: 0;
+}
+.text-block-13{
+    font-size: 18px!important;
+}
+.text-block-14{
+    font-size: 14px!important;
+}
+}
+.line-block-3{
+    display: flex;
+    padding: 8px 12px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    transition: .2s cubic-bezier(.77, 0, .175, 1);
+    text-decoration: none;
+}
+
+.text-block-13 {
+    font-family: 'Twkeverett web',sans-serif;
+    color: #5c00b7;
+    margin-bottom: 9px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-block-14 {
+    font-family: 'Twkeverett web',sans-serif;
+    color:#6a7695;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.btn_request{
+    font-size: 18px!important;
+    color:white!important;
+    border-width: 4px!important;
+}
+.btn_request:hover{
+    background-color: transparent!important;
+    border:4px solid white!important;
+}
+.navbar_fixed .menu_four .btn_request {
+    color: #051441!important;
+    border:2px solid black!important;
+}
+@media screen and (max-width: 991px){
+    .btn_request{
+        font-size: 15px!important;
+        color: #051441!important;
+        padding-left: 10px!important;
+        border:none!important;
+    }
+}
+.setlng-menu{
+    list-style: none!important;
+    margin-bottom: 0!important;
+}
+.setlng-menu ul.dropdown-menu{
+    right: 0!important;
+    left: auto!important;
+}
+.language-selector__container{
+    margin-left: 20px;
+}
+.language-selector__container select {
+    background-color: white;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #3E3D40;
+    display: block;
+    font-family: SourceSansPro, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    min-width: 60px;
+    padding: 0 10px 0 10px;
+    outline: none;
+  }
+.home_banner_area{
+    height: 100vh;
+    min-height: 650px;
+    /* background-image: linear-gradient(180deg, #5e2ced 0%, #a485fd 100%); */
+    background: #5c00b7;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.home-section-title h2{
+    color: #5c00b7;
+    font-size: 24px;
+}
+.home-section-title p {
+    font-size: 50px;
+    font-weight: 600;
+}
+.s_integration_item.active{
+    background-color: #5c00b7;
+}
+.s_integration_item h5{
+    color: #5c00b7;
+}
+
+.s_integration_item.active h5{
+    color: white;
+}
+
+
+@media screen and (max-width: 991px){
+    .home_banner_area .security_banner_content{
+        text-align: center;
+    }
+}
+
+
+
+
+
+.custom-footer {
+    /* background-image: linear-gradient(180deg, #5e2ced 0%, #a485fd 100%)!important; */
+    background-color: #5c00b7!important;
+    position: relative;
+    z-index: 0;
+}
